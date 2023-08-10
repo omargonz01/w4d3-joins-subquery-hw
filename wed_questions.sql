@@ -18,7 +18,7 @@ inner join customer
 on payment.customer_id = customer.customer_id
 where payment.amount > 6.99;
 
--- A. 2. Answer... 
+-- A. 2. Answer...
 -- "amount","first_name","last_name"
 -- "919.67","Douglas","Graf"
 -- "478.86","Mary","Smith"
@@ -107,7 +107,7 @@ GROUP BY rating;
 -- "G","178"
 -- "PG-13","223"
 -- "PG","194"
--- "R","196"  ----------------------------------------------------------------------------
+-- "R","196" -----------------------------------------------------------------------------
 
 
 -- Q.7. 7.Show all customers who have made a single payment above $6.99 (Use Subqueries)--
